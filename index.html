@@ -43,7 +43,7 @@
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="libs/sweetalert2/dist/sweetalert2.min.js"></script>
     <script src="usuario/controle/validate.js"></script>
-    <script>// This is the "Offline page" service worker
+    <script>// This is the service worker with the Advanced caching
 
 // Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
 
@@ -61,9 +61,9 @@ if ("serviceWorker" in navigator) {
         console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
       });
   }
-}</script>
-    <script src="js/pwabuilder-sw-register.js"></script>
-    <script src="js/pwabuilder-sw.js"></script>
+}
+</script>
+
 
 </body>
 
