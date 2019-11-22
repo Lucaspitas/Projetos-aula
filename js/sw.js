@@ -2,7 +2,7 @@
 layout: null
 ---
 
-const staticCacheName = 'willian-justen-{{ site.time | date: "%Y-%m-%d-%H-%M" }}';
+const staticCacheName = 'lucas-pitas-{{ site.time | date: "%Y-%m-%d-%H-%M" }}';
 
 const filesToCache = [
   { % for page in site.pages_to_cache % }
