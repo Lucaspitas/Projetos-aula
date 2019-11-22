@@ -43,20 +43,8 @@
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="libs/sweetalert2/dist/sweetalert2.min.js"></script>
     <script src="usuario/controle/validate.js"></script>
-<script>
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', function() {
-    navigator.serviceWorker.register('js/sw.js').then(function(registration) {
-      // Registration was successful
-      console.log('ServiceWorker registration successful with scope: ', registration.scope);
-    }, function(err) {
-      // registration failed :(
-      console.log('ServiceWorker registration failed: ', err);
-    });
-  });
-}
-</script>
-
+    <script src="js/pwabuilder-sw-register.js">
+    <script src="pwabuilder-sw.js">
 
 </body>
 
